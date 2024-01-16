@@ -10,23 +10,29 @@ function App() {
     toast(message, {
       duration: 4000,
       position: 'top-center',
+
       // position: 'top-left',
       // position: 'top-right',
       // position: 'Bottom-right',
+
       className: className,
+
       // Styling
       style: {
         // Your global toast styles go here
         // This will apply on all the toasts if one adds any styles
         // color: "blue"
       },
+
       // Custom Icon
       icon: icon,
+      
       // Change colors of success/error/loading icon
       iconTheme: {
         primary: '#000',
         secondary: '#fff',
       },
+
       // Aria
       ariaProps: {
         role: 'status',
